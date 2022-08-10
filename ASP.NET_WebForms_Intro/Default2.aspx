@@ -13,12 +13,12 @@
             <asp:Label ID="lblTxt" runat="server" Text="This is a Lable"></asp:Label>
             <br />
             <br />
-            <asp:RadioButton ID="RbnRed" runat="server" GroupName="Colour" Text="Red" OnCheckedChanged="RbnRed_CheckedChanged" AutoPostBack="True" /> &nbsp;
-            <asp:RadioButton ID="RbnGreen" runat="server" GroupName="Colour" Text="Green" OnCheckedChanged="RbnGreen_CheckedChanged" AutoPostBack="True" /> &nbsp;
-            <asp:RadioButton ID="RbnBlue" runat="server" GroupName="Colour" Text="Blue" OnCheckedChanged="RbnBlue_CheckedChanged" AutoPostBack="True" />
+            <asp:RadioButton ID="RbnRed" runat="server" GroupName="Colour" Text="Red" OnCheckedChanged="Color_Changed" AutoPostBack="True" /> &nbsp;
+            <asp:RadioButton ID="RbnGreen" runat="server" GroupName="Colour" Text="Green" OnCheckedChanged="Color_Changed" AutoPostBack="True" /> &nbsp;
+            <asp:RadioButton ID="RbnBlue" runat="server" GroupName="Colour" Text="Blue" OnCheckedChanged="Color_Changed" AutoPostBack="True" />
+            <%--<br />
             <br />
-            <br />
-            <asp:Button ID="Button1" runat="server" Text="submit" />
+            <asp:Button ID="Button1" runat="server" Text="submit" />--%>
         </div>
     </form>
 </body>

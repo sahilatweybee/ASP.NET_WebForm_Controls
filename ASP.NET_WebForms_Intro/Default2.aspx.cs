@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace ASP.NET_WebForms_Intro
@@ -13,19 +9,20 @@ namespace ASP.NET_WebForms_Intro
         {
 
         }
-        protected void RbnGreen_CheckedChanged(object sender, EventArgs e)
+        protected void Color_Changed(object sender, EventArgs e)
         {
-            lblTxt.ForeColor = System.Drawing.Color.Green;
-        }
-
-        protected void RbnRed_CheckedChanged(object sender, EventArgs e)
-        {
-            lblTxt.ForeColor = System.Drawing.Color.Red;
-        }
-
-        protected void RbnBlue_CheckedChanged(object sender, EventArgs e)
-        {
-            lblTxt.ForeColor = System.Drawing.Color.Blue;
+            RadioButton rbn = (RadioButton)sender;
+            lblTxt.ForeColor = System.Drawing.Color.FromName(rbn.Text);
+            //if (RbnGreen.Checked)
+            //{
+            //    lblTxt.ForeColor = System.Drawing.Color.Green;
+            //}else if (RbnRed.Checked)
+            //{
+            //    lblTxt.ForeColor = System.Drawing.Color.Red;
+            //}
+            //else { 
+            //    lblTxt.ForeColor = System.Drawing.Color.Blue;
+            //}
         }
     }
 }

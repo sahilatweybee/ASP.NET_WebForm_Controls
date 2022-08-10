@@ -9,28 +9,37 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:Table ID="Table1" runat="server">
-                <asp:TableRow>
-                    <asp:TableCell>
-                        <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox>
-                    </asp:TableCell>
-                    <asp:TableCell>
-                        <div>
-                            <asp:Button ID="Button1" runat="server" Text="Button" />
-                        </div>
-                        <div>
-                            <asp:Button ID="Button2" runat="server" Text="Button" />
-                        </div>
-                    </asp:TableCell>
-                    <asp:TableCell>
-                        <asp:ListBox ID="ListBox2" runat="server"></asp:ListBox>
-                    </asp:TableCell>
-                </asp:TableRow>
-            </asp:Table>
+    <div>
+
+        <table>
+            <tr>
+                <td>
+                    <asp:ListBox ID="ListLeft" runat="server"></asp:ListBox>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <asp:Button ID="Button1" runat="server" Text="&gt;&gt;" OnClick="Button1_Click" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:Button ID="Button2" runat="server" Text="&lt;&lt;" OnClick="Button2_Click" />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <asp:ListBox ID="ListRight" runat="server"></asp:ListBox>
+                </td>
+            </tr>
+        </table>
+
     </div>
     </form>
 </body>
