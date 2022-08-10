@@ -1,0 +1,4 @@
+﻿Build started...
+1>------ Build started: Project: ASP.NET_WebForms_Intro, Configuration: Debug Any CPU ------
+1>  ASP.NET_WebForms_Intro -> C:\Users\ADMIN\source\repos\ASP.NET_WebForms_Intro\ASP.NET_WebForms_Intro\bin\ASP.NET_WebForms_Intro.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

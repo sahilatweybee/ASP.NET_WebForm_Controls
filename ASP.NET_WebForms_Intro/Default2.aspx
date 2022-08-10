@@ -9,16 +9,16 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="lblDemo" runat="server" Text=""></asp:Label>
-        <asp:CheckBoxList ID="lst" runat="server" AutoPostBack="true" 
-            onselectedindexchanged="lst_SelectedIndexChanged" RepeatColumns="3" 
-            RepeatDirection="Horizontal">
-            <asp:ListItem>One</asp:ListItem>
-            <asp:ListItem>Two</asp:ListItem>
-            <asp:ListItem>Three</asp:ListItem>
-            <asp:ListItem>Four</asp:ListItem>
-            <asp:ListItem>Five</asp:ListItem>
-        </asp:CheckBoxList>
+       
+            <asp:Label ID="lblTxt" runat="server" Text="This is a Lable"></asp:Label>
+            <br />
+            <br />
+            <asp:RadioButton ID="RbnRed" runat="server" GroupName="Colour" Text="Red" OnCheckedChanged="RbnRed_CheckedChanged" AutoPostBack="True" /> &nbsp;
+            <asp:RadioButton ID="RbnGreen" runat="server" GroupName="Colour" Text="Green" OnCheckedChanged="RbnGreen_CheckedChanged" AutoPostBack="True" /> &nbsp;
+            <asp:RadioButton ID="RbnBlue" runat="server" GroupName="Colour" Text="Blue" OnCheckedChanged="RbnBlue_CheckedChanged" AutoPostBack="True" />
+            <br />
+            <br />
+            <asp:Button ID="Button1" runat="server" Text="submit" />
         </div>
     </form>
 </body>

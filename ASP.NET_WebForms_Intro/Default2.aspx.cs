@@ -13,14 +13,19 @@ namespace ASP.NET_WebForms_Intro
         {
 
         }
-        protected void lst_SelectedIndexChanged(object sender, EventArgs e)
+        protected void RbnGreen_CheckedChanged(object sender, EventArgs e)
         {
-            lblDemo.Text = "";
-            foreach (ListItem li in lst.Items)
-            {
-                if (li.Selected)
-                    lblDemo.Text = li.Text + " ";
-            }
+            lblTxt.ForeColor = System.Drawing.Color.Green;
+        }
+
+        protected void RbnRed_CheckedChanged(object sender, EventArgs e)
+        {
+            lblTxt.ForeColor = System.Drawing.Color.Red;
+        }
+
+        protected void RbnBlue_CheckedChanged(object sender, EventArgs e)
+        {
+            lblTxt.ForeColor = System.Drawing.Color.Blue;
         }
     }
 }

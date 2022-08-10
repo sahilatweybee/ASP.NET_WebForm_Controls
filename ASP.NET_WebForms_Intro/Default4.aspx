@@ -13,7 +13,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Table ID="Table1" runat="server" Height="49px" Width="162px">
+            <asp:Table ID="Table1" runat="server">
                 <asp:TableRow>
                     <asp:TableCell>
                         <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox>
