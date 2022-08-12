@@ -67,15 +67,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ASP_Arch_Controls_states.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Default1.aspx" />
     <Content Include="Default2.aspx" />
     <Content Include="Default3.aspx" />
     <Content Include="Default4.aspx" />
     <Content Include="Default5.aspx" />
+    <Content Include="App_Themes\StyleSheet.css" />
+    <Content Include="CSS_Demo.aspx" />
+    <Content Include="Navigation_Demo.aspx" />
+    <Content Include="Target.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Themes_Demo.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ASP_Arch_Controls_states.aspx.cs">
+      <DependentUpon>ASP_Arch_Controls_states.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASP_Arch_Controls_states.aspx.designer.cs">
+      <DependentUpon>ASP_Arch_Controls_states.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CSDemo.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -118,9 +132,39 @@
     <Compile Include="Default5.aspx.designer.cs">
       <DependentUpon>Default5.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Navigation_Demo.aspx.cs">
+      <DependentUpon>Navigation_Demo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Navigation_Demo.aspx.designer.cs">
+      <DependentUpon>Navigation_Demo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CSS_Demo.aspx.cs">
+      <DependentUpon>CSS_Demo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CSS_Demo.aspx.designer.cs">
+      <DependentUpon>CSS_Demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Target.aspx.cs">
+      <DependentUpon>Target.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Target.aspx.designer.cs">
+      <DependentUpon>Target.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Themes_Demo.aspx.cs">
+      <DependentUpon>Themes_Demo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Themes_Demo.aspx.designer.cs">
+      <DependentUpon>Themes_Demo.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Theme1\Label.skin" />
+    <Content Include="App_Themes\Theme1\Skin1.skin" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
