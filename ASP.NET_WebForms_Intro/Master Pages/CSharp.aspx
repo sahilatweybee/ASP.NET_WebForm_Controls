@@ -1,11 +1,13 @@
-﻿<%@ Page Title="C#-Course Details" Language="C#" MasterPageFile="~/Master_Pages/Courses.Master" AutoEventWireup="true" CodeBehind="CSharp.aspx.cs" Inherits="ASP.NET_WebForms_Intro.CSharp" %>
-<%@ MasterType VirtualPath="~/Master_Pages/Courses.Master" %>
+﻿<%@ Page Title="C#-Course Details" Language="C#" MasterPageFile="~/Master Pages/Courses.Master" AutoEventWireup="true" CodeBehind="CSharp.aspx.cs" Inherits="ASP.NET_WebForms_Intro.CSharp" %>
 
-<asp:Content ID="Content1" runat="server" contentplaceholderid="cpdCoueseDetails">
-    &nbsp; <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
+<%@ MasterType VirtualPath="~/Master Pages/Courses.Master" %>
+
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="cpdCoueseDetails">
+    &nbsp;
+    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
     <br />
     <p>&nbsp;   C# Course Details:</p>
-    
+
     <table>
         <tr>
             <td>
@@ -24,8 +26,8 @@
                 <asp:Image ID="Image1" runat="server" Height="222px" ImageUrl="~/Images/sample_36.png" Width="485px" />
             </td>
         </tr>
-</table>
-    
+    </table>
+
     <br />
-    <p> &nbsp;</p>
+    <p>&nbsp;</p>
 </asp:Content>

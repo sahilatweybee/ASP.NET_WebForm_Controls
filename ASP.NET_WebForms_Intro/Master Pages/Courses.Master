@@ -13,16 +13,19 @@
             border-style: solid;
             border-width: 1px;
             background-color: #00CCFF;
-            text-align: left; 
+            text-align: left;
             font-size: larger;
         }
+
         .auto-style2 {
             width: 100%;
             height: 291px;
         }
+
         .auto-style3 {
             width: 182px;
         }
+
         .auto-style4 {
             color: #FFFFFF;
         }
@@ -33,35 +36,37 @@
         <div>
             <table style="width: 100%">
                 <tr class="auto-style1">
-                    <td>
-                        &nbsp; <asp:ImageButton ID="ImageButton1" runat="server" Height="16px" ImageUrl="~/Images/Menu-Icon.png" Width="19px" OnClick="ImageButton1_Click"/>
-                        &nbsp; <asp:Label runat="server" ID="Lbl1">Header</asp:Label>
-                        &nbsp; <asp:Button ID="Button1" runat="server" Height="25px" Text="Button" Width="62px" OnClick="Button1_Click" />
+                    <td>&nbsp;
+                        <asp:ImageButton ID="ImageButton1" runat="server" Height="16px" ImageUrl="~/Images/Menu-Icon.png" Width="19px" OnClick="ImageButton1_Click" />
+                        &nbsp;
+                        <asp:Label runat="server" ID="Lbl1">Header</asp:Label>
+                        &nbsp;
+                        <asp:Button ID="Button1" runat="server" Height="25px" Text="Button" Width="62px" OnClick="Button1_Click" />
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <table class="auto-style2">
                             <tr aria-hidden="true">
-                                <td  ID="MenuCourses" class="auto-style3" style="vertical-align: top; text-align: center; background-color: #1166DD; color: #FFFFFF;">Courses Offered
+                                <td id="MenuCourses" class="auto-style3" style="vertical-align: top; text-align: center; background-color: #1166DD; color: #FFFFFF;">Courses Offered
                                     <br />
                                     <br />
-                                    <span><a href="<%=Page.ResolveUrl("~/Master_Pages/Master_Pages/CSharp.aspx") %>" style="color: #FFFFFF">CSharp</a></span>
+                                    <span><a href="<%=Page.ResolveUrl("~/Master Pages/CSharp.aspx") %>" style="color: #FFFFFF">CSharp</a></span>
                                     <br />
-                                    <span><a href="<%=Page.ResolveUrl("~/Master_Pages/ASPNET.aspx") %>" style="color: #FFFFFF">ASPNET</a></span>
+                                    <span><a href="<%=Page.ResolveUrl("~/Master Pages/ASPNET.aspx") %>" style="color: #FFFFFF">ASPNET</a></span>
                                     <br />
-                                    <span><a href="<%=Page.ResolveUrl("~/Master_Pages/SQLServer.aspx") %>" style="color: #FFFFFF">SQLServer</a></span>
+                                    <span><a href="<%=Page.ResolveUrl("~/Master Pages/SQLServer.aspx") %>" style="color: #FFFFFF">SQLServer</a></span>
                                     <br />
                                     <br />
                                     <asp:Image ID="Image1" runat="server" Height="88px" ImageUrl="~/Images/sample_36.png" Width="144px" />
                                     <br />
                                     <br />
                                     <br />
-                                    <span><a href="<%=Page.ResolveUrl("~/Master_Pages/Admin/About.aspx") %>" style="color: #FFFFFF">About</a></span>
+                                    <span><a href="<%=Page.ResolveUrl("~/Master Pages/Admin/About.aspx") %>" style="color: #FFFFFF">About</a></span>
 
                                 </td>
                                 <td style="vertical-align: top; background-color: #DDEEFF; height: inherit;">
-                                    <asp:ContentPlaceHolder ClientIDMode="Inherit" Visible="true" EnableViewState="true"  ID="cpdCoueseDetails" runat="server">
+                                    <asp:ContentPlaceHolder ClientIDMode="Inherit" Visible="true" EnableViewState="true" ID="cpdCoueseDetails" runat="server">
                                         <p>&nbsp; Page Under Construction!!!</p>
                                     </asp:ContentPlaceHolder>
                                 </td>

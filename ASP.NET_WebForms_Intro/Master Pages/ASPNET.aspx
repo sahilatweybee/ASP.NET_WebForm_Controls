@@ -1,8 +1,11 @@
-﻿<%@ Page Title="ASPNET Course Details" Language="C#" MasterPageFile="~/Master_Pages/Courses.Master" AutoEventWireup="true" CodeBehind="ASPNET.aspx.cs" Inherits="ASP.NET_WebForms_Intro.ASPNET" %>
-<%@ MasterType VirtualPath="~/Master_Pages/Courses.Master" %>
+﻿<%@ Page Title="ASPNET Course Details" Language="C#" MasterPageFile="~/Master Pages/Courses.Master"
+    AutoEventWireup="true" CodeBehind="ASPNET.aspx.cs" Inherits="ASP.NET_WebForms_Intro.ASPNET" %>
+
+<%@ MasterType VirtualPath="~/Master Pages/Courses.Master" %>
 
 <asp:Content runat="server" ContentPlaceHolderID="cpdCoueseDetails" ID="ASPNET_Course">
-    &nbsp; <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Button" />
+    &nbsp;
+    <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Button" />
     <br />
     <p>&nbsp; ASPNET Course Details:</p>
     <ol>
@@ -12,7 +15,7 @@
         <li>&nbsp; ASP.NET Architecture</li>
         <li>&nbsp; CSS & Themes</li>
         <li>&nbsp; Redirecting User to Another Page</li>
-        <li>&nbsp; Master_Pages</li>
+        <li>&nbsp; Master Pages</li>
         <li>&nbsp; WebConfiguration File and Global.asax"</li>
     </ol>
     <p>&nbsp;</p>

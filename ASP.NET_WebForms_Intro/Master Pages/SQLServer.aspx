@@ -1,6 +1,6 @@
-﻿<%@ Page Title="SQLServer Couese Details" Language="C#" MasterPageFile="~/Master_Pages/Courses.Master" AutoEventWireup="true"
+﻿<%@ Page Title="SQLServer Couese Details" Language="C#" MasterPageFile="~/Master Pages/Courses.Master" AutoEventWireup="true"
     CodeBehind="SQLServer.aspx.cs" Inherits="ASP.NET_WebForms_Intro.SQLServer" %>
-<%@ MasterType VirtualPath="~/Master_Pages/Courses.Master" %>
+<%@ MasterType VirtualPath="~/Master Pages/Courses.Master" %>
 
     <asp:Content ID="Content2" ContentPlaceHolderID="cpdCoueseDetails" runat="server">
         &nbsp; <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Button" />
