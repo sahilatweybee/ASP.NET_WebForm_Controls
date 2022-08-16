@@ -67,105 +67,147 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ASP_Arch_Controls_states.aspx" />
-    <Content Include="Default.aspx" />
-    <Content Include="Default1.aspx" />
-    <Content Include="Default2.aspx" />
-    <Content Include="Default3.aspx" />
-    <Content Include="Default4.aspx" />
-    <Content Include="Default5.aspx" />
-    <Content Include="App_Themes\StyleSheet.css" />
-    <Content Include="CSS_Demo.aspx" />
-    <Content Include="Navigation_Demo.aspx" />
-    <Content Include="Target.aspx" />
+    <Content Include="Master Pages\Admin\About.aspx" />
+    <Content Include="ASP.NET Architecture\ASP_Arch_Controls_states.aspx" />
+    <Content Include="Master Pages\ASPNET.aspx" />
+    <Content Include="Master Pages\CSharp.aspx" />
+    <Content Include="Images\Menu-Icon.png" />
+    <Content Include="Images\sample_36.png" />
+    <Content Include="Intro and Basic Controls\Default.aspx" />
+    <Content Include="Intro and Basic Controls\Default1.aspx" />
+    <Content Include="Intro and Basic Controls\Default2.aspx" />
+    <Content Include="Intro and Basic Controls\Default3.aspx" />
+    <Content Include="Intro and Basic Controls\Default4.aspx" />
+    <Content Include="Intro and Basic Controls\Default5.aspx" />
+    <Content Include="StyleSheet.css" />
+    <Content Include="CSS and Themes\CSS_Demo.aspx" />
+    <Content Include="Navigation and Redirecting User\Navigation_Demo.aspx" />
+    <Content Include="Navigation and Redirecting User\Target.aspx" />
+    <Content Include="Master Pages\SQLServer.aspx" />
     <Content Include="Web.config" />
-    <Content Include="Themes_Demo.aspx" />
+    <Content Include="CSS and Themes\Themes_Demo.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ASP_Arch_Controls_states.aspx.cs">
+    <Compile Include="Master Pages\Admin\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master Pages\Admin\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASP.NET Architecture\ASP_Arch_Controls_states.aspx.cs">
       <DependentUpon>ASP_Arch_Controls_states.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASP_Arch_Controls_states.aspx.designer.cs">
+    <Compile Include="ASP.NET Architecture\ASP_Arch_Controls_states.aspx.designer.cs">
       <DependentUpon>ASP_Arch_Controls_states.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CSDemo.cs" />
-    <Compile Include="Default.aspx.cs">
+    <Compile Include="ASP.NET Architecture\CSDemo.cs" />
+    <Compile Include="Master Pages\ASPNET.aspx.cs">
+      <DependentUpon>ASPNET.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master Pages\ASPNET.aspx.designer.cs">
+      <DependentUpon>ASPNET.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master Pages\CSharp.aspx.cs">
+      <DependentUpon>CSharp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master Pages\CSharp.aspx.designer.cs">
+      <DependentUpon>CSharp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Intro and Basic Controls\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
+    <Compile Include="Intro and Basic Controls\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default1.aspx.cs">
+    <Compile Include="Intro and Basic Controls\Default1.aspx.cs">
       <DependentUpon>Default1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default1.aspx.designer.cs">
+    <Compile Include="Intro and Basic Controls\Default1.aspx.designer.cs">
       <DependentUpon>Default1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default2.aspx.cs">
+    <Compile Include="Intro and Basic Controls\Default2.aspx.cs">
       <DependentUpon>Default2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default2.aspx.designer.cs">
+    <Compile Include="Intro and Basic Controls\Default2.aspx.designer.cs">
       <DependentUpon>Default2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default3.aspx.cs">
+    <Compile Include="Intro and Basic Controls\Default3.aspx.cs">
       <DependentUpon>Default3.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default3.aspx.designer.cs">
+    <Compile Include="Intro and Basic Controls\Default3.aspx.designer.cs">
       <DependentUpon>Default3.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default4.aspx.cs">
+    <Compile Include="Intro and Basic Controls\Default4.aspx.cs">
       <DependentUpon>Default4.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default4.aspx.designer.cs">
+    <Compile Include="Intro and Basic Controls\Default4.aspx.designer.cs">
       <DependentUpon>Default4.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default5.aspx.cs">
+    <Compile Include="Intro and Basic Controls\Default5.aspx.cs">
       <DependentUpon>Default5.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default5.aspx.designer.cs">
+    <Compile Include="Intro and Basic Controls\Default5.aspx.designer.cs">
       <DependentUpon>Default5.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Navigation_Demo.aspx.cs">
+    <Compile Include="Navigation and Redirecting User\Navigation_Demo.aspx.cs">
       <DependentUpon>Navigation_Demo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Navigation_Demo.aspx.designer.cs">
+    <Compile Include="Navigation and Redirecting User\Navigation_Demo.aspx.designer.cs">
       <DependentUpon>Navigation_Demo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CSS_Demo.aspx.cs">
+    <Compile Include="CSS and Themes\CSS_Demo.aspx.cs">
       <DependentUpon>CSS_Demo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CSS_Demo.aspx.designer.cs">
+    <Compile Include="CSS and Themes\CSS_Demo.aspx.designer.cs">
       <DependentUpon>CSS_Demo.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Target.aspx.cs">
+    <Compile Include="Master Pages\Courses.Master.cs">
+      <DependentUpon>Courses.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master Pages\Courses.Master.designer.cs">
+      <DependentUpon>Courses.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation and Redirecting User\Target.aspx.cs">
       <DependentUpon>Target.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Target.aspx.designer.cs">
+    <Compile Include="Navigation and Redirecting User\Target.aspx.designer.cs">
       <DependentUpon>Target.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Themes_Demo.aspx.cs">
+    <Compile Include="CSS and Themes\Themes_Demo.aspx.cs">
       <DependentUpon>Themes_Demo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Themes_Demo.aspx.designer.cs">
+    <Compile Include="CSS and Themes\Themes_Demo.aspx.designer.cs">
       <DependentUpon>Themes_Demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master Pages\SQLServer.aspx.cs">
+      <DependentUpon>SQLServer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master Pages\SQLServer.aspx.designer.cs">
+      <DependentUpon>SQLServer.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Themes\Theme1\Label.skin" />
     <Content Include="App_Themes\Theme1\Skin1.skin" />
     <None Include="packages.config" />
+    <Content Include="Master Pages\Courses.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -173,6 +215,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

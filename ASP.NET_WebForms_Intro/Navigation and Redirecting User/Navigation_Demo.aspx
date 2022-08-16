@@ -14,16 +14,16 @@
             <asp:TextBox ID="TextBox" runat="server" Font-Size="11pt"></asp:TextBox>
             <br />
             <br />
-            <a href="Target.aspx">Target.aspx</a>
+            <a href="Target.aspx">./Target.aspx</a>
             <br />
             <br />
-            <asp:Button ID="REdirect" runat="server" Text="Response.Redirect" OnClick="REdirect_Click" />
+            <asp:Button ID="REdirect" runat="server" Text="Response.Redirect" OnClick="Redirect_Click" />
             <br />
             <br />
             <asp:Button ID="Transfer" runat="server" Text="Server.Transfer" OnClick="Transfer_Click" />
             <br />
             <br />
-            <asp:Button ID="CrossPosting" runat="server" Text="Cross-Page-Posting" PostBackUrl="~/Target.aspx"/>
+            <asp:Button ID="CrossPosting" runat="server" Text="Cross-Page-Posting" PostBackUrl="~/Navigation and Redirecting User/Target.aspx"/>
         </div>
     </form>
 </body>

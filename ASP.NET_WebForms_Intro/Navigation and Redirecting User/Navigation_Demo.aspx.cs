@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace ASP.NET_WebForms_Intro
@@ -21,7 +17,7 @@ namespace ASP.NET_WebForms_Intro
             }
         }
 
-        protected void REdirect_Click(object sender, EventArgs e)
+        protected void Redirect_Click(object sender, EventArgs e)
         {
             String Data = TextBox.Text;
             Response.Redirect("Target.aspx?Data=" + Data);

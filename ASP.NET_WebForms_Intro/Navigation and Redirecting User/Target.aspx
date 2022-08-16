@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Target.aspx.cs" Inherits="ASP.NET_WebForms_Intro.Target" %>
-<%@ PreviousPageType VirtualPath="~/Navigation_Demo.aspx" %>
+<%@ PreviousPageType VirtualPath="~/Navigation and Redirecting User/Navigation_Demo.aspx" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
