@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Computer.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="Master Pages\Admin\About.aspx" />
     <Content Include="ASP.NET Architecture\ASP_Arch_Controls_states.aspx" />
     <Content Include="Master Pages\ASPNET.aspx" />
@@ -86,8 +88,22 @@
     <Content Include="Master Pages\SQLServer.aspx" />
     <Content Include="Web.config" />
     <Content Include="CSS and Themes\Themes_Demo.aspx" />
+    <Content Include="Web_Configuration_and_Global_ASAX\ErrorMessage.aspx" />
+    <Content Include="Web_Configuration_and_Global_ASAX\FileNotFound.aspx" />
+    <Content Include="Web_Configuration_and_Global_ASAX\SubFolder\SubDefault.aspx" />
+    <Content Include="Web_Configuration_and_Global_ASAX\Web_Config_Default_1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Computer.aspx.cs">
+      <DependentUpon>Computer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Computer.aspx.designer.cs">
+      <DependentUpon>Computer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Master Pages\Admin\About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -202,6 +218,34 @@
     <Compile Include="Master Pages\SQLServer.aspx.designer.cs">
       <DependentUpon>SQLServer.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Web_Configuration_and_Global_ASAX\ErrorMessage.aspx.cs">
+      <DependentUpon>ErrorMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Configuration_and_Global_ASAX\ErrorMessage.aspx.designer.cs">
+      <DependentUpon>ErrorMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Configuration_and_Global_ASAX\FileNotFound.aspx.cs">
+      <DependentUpon>FileNotFound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Configuration_and_Global_ASAX\FileNotFound.aspx.designer.cs">
+      <DependentUpon>FileNotFound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Configuration_and_Global_ASAX\SubFolder\SubDefault.aspx.cs">
+      <DependentUpon>SubDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Configuration_and_Global_ASAX\SubFolder\SubDefault.aspx.designer.cs">
+      <DependentUpon>SubDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Configuration_and_Global_ASAX\Web_Config_Default_1.aspx.cs">
+      <DependentUpon>Web_Config_Default_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Configuration_and_Global_ASAX\Web_Config_Default_1.aspx.designer.cs">
+      <DependentUpon>Web_Config_Default_1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Themes\Theme1\Label.skin" />
@@ -214,6 +258,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Web_Configuration_and_Global_ASAX\SubFolder\Web.config" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
