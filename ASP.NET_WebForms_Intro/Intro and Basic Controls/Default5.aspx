@@ -9,12 +9,10 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:literal id="literal1" runat="server" mode="encode">
-                a<b
-            </asp:literal>
+            <asp:literal id="literal1" runat="server" mode="Encode"> a<b </asp:literal>
             <br />
             <br />
-            <asp:label id="label1" runat="server" text="label">a<b</asp:label>
+            <asp:label id="label1" runat="server" text="label"> a<b </asp:label>
             <br />
             <br />
             <asp:textbox id="textbox1" runat="server" readonly="true">skdlafhsajio;ufer</asp:textbox>
@@ -49,7 +47,7 @@
             </asp:Panel>
             <asp:ImageButton ID="ImageButton1" runat="server" Height="47px" Width="55px" />
 
-            <%--<% sadjiogujpgu;sGffsehtdbjgdfhzdfgfdsgSgaFGFDG %>--%>
+            <%-- <% sadjiogujpgu;sGffsehtdbjgdfhzdfgfdsgSgaFGFDG %> --%>
             <asp:Image ID="Image1" runat="server" Height="48px" Width="44px" />
             <br />
             <br />

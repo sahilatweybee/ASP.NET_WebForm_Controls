@@ -9,20 +9,20 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="lblDemo" runat="server" BackColor="Maroon"></asp:Label><br />
+            <asp:Label ID="lblDemo" runat="server" BackColor="Maroon" ForeColor="White"></asp:Label><br />
         <asp:Literal ID="Literal1" runat="server" Mode="Encode" 
             Text="This is &lt;b&gt;Literal Text&lt;/b&gt;"></asp:Literal>
         <br />
         <br />
         <asp:Button ID="Button1" runat="server" onclick="Button1_Click" Text="Button" OnClientClick="return confirm('are you sure?');"/>
+        <asp:HyperLink ID="HyperLink1" runat="server" ImageUrl="~/Images/sample_36.png" 
+            NavigateUrl="Default2.aspx" Target="_blank">Default2</asp:HyperLink>
         <br />
         <br />
         <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click" 
             onclientclick="return confirm('Are you sure?')">Click here</asp:LinkButton>
         <br />
         <br />
-        <asp:HyperLink ID="HyperLink1" runat="server" ImageUrl="~/Images/Hover.jpg" 
-            NavigateUrl="~/Default2.aspx" Target="_blank">Default2</asp:HyperLink>
         <br />
         <br />
         <asp:ImageButton ID="ImageButton1" runat="server" Height="122px" 
