@@ -67,7 +67,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Computer.aspx" />
+    <Content Include="FlowerImages\big-rose-thumb.jpg" />
+    <Content Include="FlowerImages\catananche-caerulea-thumb.jpg" />
+    <Content Include="FlowerImages\crocus-thumb.jpg" />
+    <Content Include="FlowerImages\dahlia-photo-thumb.jpg" />
+    <Content Include="FlowerImages\daisy-thumb.jpg" />
+    <Content Include="FlowerImages\doronicum-orientale-thumb.jpg" />
+    <Content Include="FlowerImages\erica-carnea-thumb.jpg" />
+    <Content Include="FlowerImages\new.jpg" />
+    <Content Include="FlowerImages\peony-thumb.jpg" />
+    <Content Include="FlowerImages\red-tulip-thumb.jpg" />
+    <Content Include="FlowerImages\regensberg-rose-thumb.jpg" />
+    <Content Include="FlowerImages\rudbekia-thumb.jpg" />
+    <Content Include="FlowerImages\small-tortoiseshell-eating-nectar-thumb.jpg" />
+    <Content Include="FlowerImages\sunny-tulip-thumb.jpg" />
+    <Content Include="FlowerImages\violet-phlox-thumb.jpg" />
+    <Content Include="FlowerImages\yellow-tulip-thumb.jpg" />
+    <Content Include="Web_Configuration_and_Global_ASAX\Computer.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Master Pages\Admin\About.aspx" />
     <Content Include="ASP.NET Architecture\ASP_Arch_Controls_states.aspx" />
@@ -94,11 +110,11 @@
     <Content Include="Web_Configuration_and_Global_ASAX\Web_Config_Default_1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Computer.aspx.cs">
+    <Compile Include="Web_Configuration_and_Global_ASAX\Computer.aspx.cs">
       <DependentUpon>Computer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Computer.aspx.designer.cs">
+    <Compile Include="Web_Configuration_and_Global_ASAX\Computer.aspx.designer.cs">
       <DependentUpon>Computer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">

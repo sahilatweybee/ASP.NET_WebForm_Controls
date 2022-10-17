@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Id = <%= Request.QueryString["Id"] %>
+            Id = <%=Request.QueryString["Id"].ToString() %>
         </div>
     </form>
 </body>
